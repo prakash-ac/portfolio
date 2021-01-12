@@ -1,0 +1,14 @@
+.Degrees{
+    font-weight: bold;
+}
+.Degree{
+    box-sizing: border-box;
+    border-radius: 1.5rem;
+    border: 1px solid limegreen;
+    background-color: skyblue;
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 10px;
+
+}

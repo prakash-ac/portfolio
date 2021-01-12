@@ -1,0 +1,39 @@
+.Certifications{
+    font-family:fantasy;
+    height: 100vh;
+    width: 100%;
+    color: black;
+    font-weight: bold;
+}
+
+.Certificate{
+    width: 75%;
+    height: 100px;
+    background-color: skyblue;
+    box-sizing: border-box;
+    border: 1px solid limegreen;
+    border-radius: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.Image{
+    width: 100px;
+    height: 50px;
+    float: left;
+    margin-top: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.Title{
+    margin-top: 30px;
+}
+
+.H3{
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 20px;
+}

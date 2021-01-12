@@ -1,0 +1,34 @@
+.About{
+    font-family:fantasy;
+    background-color: skyblue;
+    height: 100vh;
+    width: 100%;
+    color: black;
+}
+
+.Profile{
+    box-sizing: border-box;
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 10px;
+    /* border: 0.25px solid white; */
+    float: center;
+}
+
+.Me{
+    box-sizing: content-box;
+    /* border: 1px solid white; */
+    border-radius: 1rem;
+    width: 75%;
+    text-align: left;
+    margin: auto;
+    line-height: 1.5rem;
+    background-color: none;
+    padding: 20px;
+
+}
+
+.Para{
+    font-size: 17px;
+}
