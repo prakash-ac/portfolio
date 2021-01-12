@@ -16,3 +16,11 @@
     list-style: none;
     /* height: 15px; */
 }
+
+.Nav a{
+   color: white;
+   text-decoration: none;
+}
+.Nav a:active {
+    color: orange;
+}

@@ -1,0 +1,21 @@
+.Works{
+    width: 100%;
+    height: 100vh;
+    background-color: skyblue;
+    color: black;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.Work{
+    width: 60%;
+    box-sizing: border-box;
+    border: 1px solid white;
+    box-shadow: 10px 10px 10px rgb(154, 181, 199);
+    border-radius: 1.5rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: left;
+}

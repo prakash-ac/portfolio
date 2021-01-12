@@ -1,34 +1,27 @@
 import React from 'react';
 import './Nav.css';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 
 const nav = (props) => {
-
-    const linkStyle = {
-        color: 'white',
-        textDecoration: 'none',
-    }
-
     return (
         <nav className="Nav">
             <ul className="NavLinks">
-
-                <Link to="/about" style={linkStyle}>
+                <NavLink className="NavItem" to="/">
                     <li>About Me</li>
-                </Link>
+                </NavLink>
 
-                <Link to="/education" style={linkStyle}>
+                <NavLink className="NavItem" to="/education">
                     <li>Education</li>
-                </Link>
+                </NavLink>
 
-                <Link to="/works" style={linkStyle}>
+                <NavLink className="NavItem" to="/works">
                     <li>My Works</li>
-                </Link>
+                </NavLink>
 
-                <Link to="/contact" style={linkStyle}>
+                <NavLink className="NavItem" to="/contact">
                     <li>Contact Me</li>
-                </Link>
+                </NavLink>
                 
             </ul>
         </nav>
